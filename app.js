@@ -1,0 +1,1 @@
+const products=[{name:'Enduro 250',price:'189990 ₽'}];document.getElementById('products').innerHTML=products.map(p=>`<div><h3>${p.name}</h3><p>${p.price}</p></div>`).join('');
